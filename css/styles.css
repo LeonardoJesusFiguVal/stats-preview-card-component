@@ -1,0 +1,47 @@
+html{
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+:root{
+    --veryDarkBlue: hsl(233, 47%, 7%);
+    --darkDesaturatedBlue: hsl(244, 38%, 16%);
+    --softViolet: hsl(277, 64%, 61%);
+    --white: hsl(0, 0%, 100%);
+    --slightlyTransparentWhiteMain: hsla(0, 0%, 100%, 0.75);
+    --slightlyTransparentWhite: hsla(0, 0%, 100%, 0.6);
+}
+
+body{
+    font-size: 1.5rem;
+    font-family: 'Inter', sans-serif;
+    background-color: var(--veryDarkBlue);
+    color: var(--white);
+}
+
+*,*:before,*:after{
+    box-sizing: inherit;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    align-items: center;
+
+    background-color: var(--darkDesaturatedBlue);
+    border-radius: 0.5rem;
+    margin: 10rem;
+}
+
+.imagen{
+    background-image: url(../images/image-header-mobile.jpg);
+    width: 100%;
+    height: 480px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.Main{
+
+}
