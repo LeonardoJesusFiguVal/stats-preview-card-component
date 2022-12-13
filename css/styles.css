@@ -14,7 +14,7 @@ html{
 }
 
 body{
-    font-size: 1.5rem;
+    font-size: 1rem;
     font-family: 'Inter', sans-serif;
     background-color: var(--veryDarkBlue);
     color: var(--white);
@@ -76,6 +76,7 @@ body{
 @media (min-width: 1200px){
     .imagen{
         background-image: url(../images/image-header-desktop.jpg);
+        height: 100%;
         border-top-right-radius: .5rem;
         border-bottom-right-radius: .5rem;
         border-top-left-radius: 0;
@@ -98,7 +99,7 @@ body{
 }
 
 .Main__titulo{
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     margin: 1rem;
 }
 
@@ -112,6 +113,7 @@ body{
 }
 
 .Main__info{
+    align-items: center;
     padding: 1rem;
     margin: .5rem;
 }
